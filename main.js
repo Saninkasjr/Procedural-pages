@@ -102,13 +102,13 @@ window.onload = function() {
     applyTheme(theme);
 };
 
-// Generate and apply a theme when the page is refreshed-- yes
+// Generate and apply a theme when the page is refreshed
 window.onbeforeunload = function() {
     const theme = generateTheme();
     applyTheme(theme);
 };
 
-// Generate and apply a theme when the page is refreshed refreshed
+// Generate and apply a theme when the page is refreshed
 window.addEventListener("unload", function() {
     const theme = generateTheme();
     applyTheme(theme);
