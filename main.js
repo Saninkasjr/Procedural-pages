@@ -108,7 +108,7 @@ window.onbeforeunload = function() {
     applyTheme(theme);
 };
 
-// Generate and apply a theme when the page is refreshed
+// Generate and apply a theme when the page is refreshed refreshed
 window.addEventListener("unload", function() {
     const theme = generateTheme();
     applyTheme(theme);
